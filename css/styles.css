@@ -11,6 +11,12 @@
     --hero-color:#2F303A;
     --batton-hover-color:#188CE8;
 }
+p,h1,h2,h3,h4,h5,h6 { 
+    margin: 0;}
+ul{
+    margin: 0;
+    padding-left: 0;
+}
 body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--wite-color);
