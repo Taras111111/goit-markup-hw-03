@@ -24,7 +24,13 @@ body{
     color: var(--main-text-color);
     font-size: 14px;
 }
-
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid red;
+}
 
 .list{
     list-style: none;
@@ -52,6 +58,10 @@ body{
 
 .header-link.curent{
     color: var(--accent-color);
+}
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 /* --------------------------------------------- Логотип --------------------------------------------------------- */
 .header-logo {
@@ -91,6 +101,9 @@ body{
 .hero{
     background-color: var(--hero-color);
 }
+.hero-content{
+    padding: 200px 452px 280px;
+}
 .main-hero {
     font-weight: 900;
     font-size: 44px;
@@ -98,8 +111,9 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    
+    margin-top: 200px;
     color: var(--wite-color);}
+    
 
 .main-button:hover,
 .main-button:focus{
