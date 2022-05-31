@@ -77,6 +77,14 @@ body{
     color: var(--accent-color);
 }
 
+.header-list{
+    display: flex;
+
+}
+.header-list .header-item:not(:last-child){
+    margin-right: 50px;
+}
+
 .header-link:focus,
 .header-link:hover {
     color: var(--accent-color);
