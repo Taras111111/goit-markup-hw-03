@@ -327,6 +327,7 @@ margin-bottom: 20px;
 .portfolio-item{
     width: 370px;
     margin-right: 30px;
+    margin-bottom: 30px;
 
 }
 .portfolio-item:nth-child(3n){
