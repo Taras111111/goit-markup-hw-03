@@ -69,11 +69,12 @@ body{
 .header{
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC
 }
 .main-header{
     display: flex;
     align-items: center;
-    justify-content:;
+  
 }
 /* --------------------------------------------- Логотип --------------------------------------------------------- */
 .header-logo {
