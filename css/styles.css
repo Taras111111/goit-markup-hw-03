@@ -42,7 +42,8 @@ body{
     list-style: none;
 }
 .link{
-    text-decoration: none;}
+    text-decoration: none;
+}
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -98,10 +99,9 @@ body{
 }
 .header-link {
     display: block;
-    /* padding-bottom: 32px;
-    padding-top: 32px; */
 
     color: var(--main-text-color);
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -124,6 +124,7 @@ body{
     display: block;
 
     color: var(--secondary-text-color);
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.19;
@@ -137,13 +138,13 @@ body{
 /* ......................................HERO........................................*/
 .hero{
     background-color: var(--hero-color);
+
     padding-top: 200px;
     padding-bottom: 200px;
 }
-/* .hero-content{
-    padding: 200px 452px 280px;
-} */
+
 .main-hero {
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;    
@@ -192,12 +193,14 @@ body{
     padding-bottom: 94px;
 }
 .quality-title {
+    display: block;
+
+    margin-bottom: var(--typical-margin);
+  
+    text-align: left;
     font-size: 14px;
     line-height: 1.19;
     text-transform: uppercase;
-    margin-bottom: var(--typical-margin);
-    display: block;
-    text-align: left;
 }
 
 .quality-subtitle {
