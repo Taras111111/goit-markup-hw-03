@@ -322,7 +322,7 @@ margin-bottom: 20px;
 .portfolio-list{
     display: flex;
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 .portfolio-list .portfolio-filter + .portfolio-filter{
     margin-left: 8px;
@@ -378,8 +378,8 @@ color:var(--main-text-color);
     font-size: 16px;
     line-height: 1.88;
 
-    color: var(--subtitle-color);
-    margin-bottom: var(--twenty-margin);
+    color: var(--subtitle-color); 
+    
 }
 .container-portfolio {
     padding: 20px 24px;
